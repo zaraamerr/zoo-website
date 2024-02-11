@@ -76,3 +76,6 @@ function navigateToElephant() {
 function navigateToGiraffe() {
     window.location.href = "giraffe.html";
 }
+function navigateToZebra() {
+    window.location.href = "zebra.html";
+}
