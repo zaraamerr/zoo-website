@@ -12,13 +12,13 @@
         <!--  image row start  -->
         <div class = "row">
             <!--  image card start  -->
-            <div class = "image">
+            <div class = "image" onclick="navigateToLeopard()">
                <img src = "img/leopard.jpg" alt = "">
                <div class = "details">
                 <h2><span>Leopard</span></h2>
-                <p>Leopards can run up to 36 mph.</p>
+                <p>Did you know leopards can run up to 36 mph?</p>
                 <div class = "more">
-                    <a href="#" class = "learn-more">Learn <span>More</span></a>
+                    <a href="#" class = "learn-more">Click Here to <span> Learn More</span></a>
                 </div>
                </div>
             </div>
@@ -67,5 +67,10 @@
         <!--  image row end  -->
     </div>
     <!--  image card layout end  -->
+    <script>
+        function navigateToLeopard() {
+            window.location.href = "leopard.html";
+        }
+    </script>
 </body>
 </html>
