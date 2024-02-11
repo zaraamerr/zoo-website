@@ -66,3 +66,10 @@ const initSlider = () => {
 
 window.addEventListener("resize", initSlider);
 window.addEventListener("load", initSlider);
+
+function navigateToLeopard() {
+    window.location.href = "leopard.html";
+}
+function navigateToElephant() {
+    window.location.href = "elephant.html";
+}

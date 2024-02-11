@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Safari Spectacle</title>
     <link rel="stylesheet" type="text/css" href="css/safari-spectacle.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <!--  image card layout start  -->
@@ -24,13 +25,13 @@
             </div>
             <!--  image card end  -->
             <!--  image card start  -->
-            <div class = "image">
+            <div class = "image" onclick="navigateToElephant()">
                 <img src = "img/elephant-6723452_1280.jpg" alt = "">
                 <div class = "details">
                  <h2><span>Elephant</span></h2>
-                 <p>An elephant's truck can contain up to 8 liters of water.</p>
+                 <p>Did you know an elephant's truck can contain up to 8 liters of water?</p>
                  <div class = "more">
-                     <a href="#" class = "learn-more">Learn <span>More</span></a>
+                     <a href="#" class = "learn-more">Click Here to <span>Learn More</span></a>
                  </div>
                 </div>
             </div>
@@ -67,10 +68,5 @@
         <!--  image row end  -->
     </div>
     <!--  image card layout end  -->
-    <script>
-        function navigateToLeopard() {
-            window.location.href = "leopard.html";
-        }
-    </script>
 </body>
 </html>
