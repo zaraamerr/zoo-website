@@ -73,3 +73,6 @@ function navigateToLeopard() {
 function navigateToElephant() {
     window.location.href = "elephant.html";
 }
+function navigateToGiraffe() {
+    window.location.href = "giraffe.html";
+}
