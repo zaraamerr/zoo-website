@@ -37,6 +37,8 @@ li a:hover:not(.active) {
   background-color: #04AA6D;
 } */
 
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap') */
+
 /* NAVBAR CSS */
 *{
   padding: 0;
@@ -47,7 +49,9 @@ li a:hover:not(.active) {
 }
 
 body{
-  font-family: montserrat;
+  /* font-family: montserrat; */
+  font-family: "Raleway", sans-serif;
+  background-color: #D9E8DC;
 }
 
 nav{
@@ -163,3 +167,117 @@ nav ul li a:hover {
   height: calc(100vh - 80px);
 
 } */
+
+/* POSITIONING THE CARDS */
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-40%);
+  /* height: 430px;
+  width: 350px; */
+  height: 430px;
+  width: 400px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.left {
+  left: 15%;
+}
+
+.right {
+  /* right: 115%; */
+  left: 55%;
+}
+
+.front-face, .back-face{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #CCE0CF;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s; */
+  backface-visibility: hidden;
+  border-radius: 5px;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+  transition: transform .4s linear;
+} 
+
+.cover{
+  background: linear-gradient(75deg, #355A3A, #2D4D32);
+  height: 115px;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.profile{
+  height: 115px;
+  width: 115px;
+  border-radius: 50%;
+  padding: 5px;
+  background: white;
+  margin-top: 40px;
+}
+
+.name{
+  font-family: "Raleway", sans-serif;
+  color:#2D4D32;
+  font-size: 30px;
+  padding-top: 75px;
+  font-weight: bold;
+}
+
+.tag{
+  padding: 5px 0;
+  color:#0d0d0d;
+  font-weight: bold;
+}
+
+.about{
+  margin-top: 10px;
+  padding: 0px 35px;
+  /* text-align: justify; */
+  font-size: 15px;
+  color:#0d0d0d;
+  text-align: center;
+}
+
+h1{
+  font-family: "Raleway", sans-serif;
+  padding-top: 75px;
+  color: #0d0d0d;
+  text-align: center;
+}
+
+p{
+  padding: 20px;
+  color: #262626;
+  text-align: center;
+}
+
+i{
+  font-size: 30px;
+  padding-left: 20px;
+  cursor: pointer;
+
+}
+
+.back-face{
+  transform: perspective(800px) rotateY(-180deg)
+}
+
+.front-face{
+  transform: perspective(800px) rotateY(0deg)
+}
+
+.container:hover > .back-face{
+  transform: perspective(800px) rotateY(0deg)
+}
+
+.container:hover > .front-face{
+  transform: perspective(800px) rotateY(180deg)
+}
