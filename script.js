@@ -79,3 +79,21 @@ function navigateToGiraffe() {
 function navigateToZebra() {
     window.location.href = "zebra.html";
 }
+
+// jungle junction
+
+function navigateToChimpanzee() {
+    window.location.href = "chimpanzee.html";
+}
+
+function navigateToCrocodile() {
+    window.location.href = "crocodile.html";
+}
+
+function navigateToPython() {
+    window.location.href = "python.html";
+}
+
+function navigateToToucan() {
+    window.location.href = "toucan.html";
+}
