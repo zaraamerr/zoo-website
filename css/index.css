@@ -51,7 +51,8 @@ li a:hover:not(.active) {
 body{
   /* font-family: montserrat; */
   font-family: "Raleway", sans-serif;
-  background-color: #D9E8DC;
+  /* background-color: #D9E8DC; */
+  background-color: #0d0d0d;
 }
 
 nav{
@@ -160,12 +161,12 @@ nav ul li a:hover {
     left: 0;
   }
 }
-
-/* section{
-  background: url(bg1.jpg) no-repeat;
+ 
+/* .background-section {
+  background-image: url('img/zooniverse.jpg');
   background-size: cover;
+  background-position: center;
   height: calc(100vh - 80px);
-
 } */
 
 /* POSITIONING THE CARDS */
@@ -281,3 +282,14 @@ i{
 .container:hover > .front-face{
   transform: perspective(800px) rotateY(180deg)
 }
+
+@media (max-width: 858px) {
+  .container {
+    width: 90%; /* Adjust as needed */
+    max-width: none;
+    margin: 20px auto;
+  }
+}
+
+
+
