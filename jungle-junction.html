@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/721b848492.js" crossorigin="anonymous"></script>
+    <title>Jungle Junction</title>
+    <link rel="stylesheet" type="text/css" href="css/jungle-junction.css">
+    <script src="script.js"></script>
+</head>
+<body>
+        <!-- NAV BAR -->
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">ZOO-NIVERSE</label>
+            <ul>
+              <li><a class="active" href="index.html">Home</a></li>
+              <li><a href="jungle-junction.html">Jungle Junction</a></li>
+              <li><a href="safari-spectacle.html">Safari Spectacle</a></li>
+            </ul>
+          </nav>
+
+    <!--  image card layout start  -->
+    <div class = "container">
+        <!--  image row start  -->
+        <div class = "row">
+            <!--  image card start  -->
+            <div class = "image" onclick="navigateToChimpanzee()">
+               <img src = "img/Chimpanzee.jpg" alt = "">
+               <div class = "details">
+                <h2><span>Chimpanzee</span></h2>
+                <p>Did you know that chimpanzees are more closely related to humans than they are to gorillas?</p>
+                <div class = "more">
+                    <a href="#" class = "learn-more"><span>Click Here </span>to Learn More</a>
+                </div>
+               </div>
+            </div>
+            <!--  image card end  -->
+            <!--  image card start  -->
+            <div class = "image" onclick="navigateToCrocodile()">
+                <img src = "img/Crocodile.jpg" alt = "">
+                <div class = "details">
+                 <h2><span>Crocodile</span></h2>
+                 <p>Did you know that over their lifetime, crocodiles can grow and replace thousands of teeth?</p>
+                 <div class = "more">
+                     <a href="#" class = "learn-more"><span>Click Here </span>to Learn More</a>
+                 </div>
+                </div>
+            </div>
+            <!--  image card start  -->
+        </div>
+        <!--  image row end  -->
+        <!--  image row start  -->
+        <div class = "row">
+            <!--  image card start  -->
+            <div class = "image" onclick="navigateToPython()">
+               <img src = "img/Python.jpg" alt = "">
+               <div class = "details">
+                <h2><span>Python</span></h2>
+                <p>Did you know pythons are considered to be the longest snake?</p>
+                <div class = "more">
+                    <a href="#" class = "learn-more"><span>Click Here </span>to Learn More</a>
+                </div>
+               </div>
+            </div>
+            <!--  image card end  -->
+            <!--  image card start  -->
+            <div class = "image" onclick="navigateToToucan()">
+                <img src = "img/Toucan.jpg" alt = "">
+                <div class = "details">
+                 <h2><span>Toucan</span></h2>
+                 <p>Did you know that toucans use their bills to cool off?</p>
+                 <div class = "more">
+                    <a href="#" class = "learn-more"><span>Click Here </span>to Learn More</a>
+                 </div>
+                </div>
+            </div>
+            <!--  image card start  -->
+        </div>
+        <!--  image row end  -->
+    </div>
+    <!--  image card layout end  -->
+</body>
+</html>
