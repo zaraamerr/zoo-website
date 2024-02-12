@@ -1,21 +1,64 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Johnny's Zoo</title>
+    <meta charset="utf-8">
+    <title>ZOO-NIVERSE</title>
+    <meta name+"viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/721b848492.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/index.css">
   </head>
   <body>
-   <!-- NAVIGATION BAR -->
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="jungle-junction.html">Jungle Junction</a></li>
-      <li><a href="safari-spectacle.html">Safari Spectacle</a></li> 
-    </ul>
+    <!-- NAV BAR -->
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">ZOO-NIVERSE</label>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="jungle-junction.html">Jungle Junction</a></li>
+        <li><a href="safari-spectacle.html">Safari Spectacle</a></li>
+      </ul>
+    </nav>
 
-    <h1>Welcome to Johnny's Zoo</h1>
-    <h3>See the animals at the zoo:</h3>
-    <div class="link">
-      <a href="polar-bear.html">Polar Bear</a>
-    </div>
+    <!-- CARDS -->
+    <a href="safari-spectacle.html">
+      <div class="container left">
+        <div class="front-face">
+          <div class="cover">
+            <img src="img/safari.jpg" class="profile">
+          </div>
+          <div class="name">SAFARI SPECTACLE</div>
+          <div class="tag">Safari Animals</div>
+          <p class="about">See the Animals at the Safari Zoo</p>
+        </div>
+        <div class="back-face">
+          <h1>Description</h1>
+          <p>Safari animals encompass a rich variety of wildlife typically inhabiting the open plains, grasslands, and savannas of Africa. This diverse group includes iconic species such as lions, elephants, giraffes, zebras, cheetahs, rhinoceroses, and hippos, among others. Many safari animals are renowned for their impressive size, strength, speed, and hunting prowess. Visitors to safari destinations have the opportunity to witness these magnificent creatures in their natural habitats, observing their behaviors and interactions within the dynamic ecosystems of the African wilderness.</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="jungle-junction.html">
+      <div class="container right">
+        <div class="front-face">
+          <div class="cover">
+            <img src="img/jungle.jpg" class="profile">
+          </div>
+          <div class="name">JUNGLE JUNCTION</div>
+          <div class="tag">Jungle Animals</div>
+          <p class="about">See the Animals at the Jungle Zoo</p>
+        </div>
+        <div class="back-face">
+          <h1>Description</h1>
+          <p>Jungle animals represent a diverse array of species found in the dense, tropical forests of various regions around the world. From majestic big cats like tigers and jaguars to colorful birds like parrots and toucans, jungle ecosystems are teeming with life. These environments also host primates such as monkeys and apes, along with reptiles like snakes and amphibians like frogs. Adaptations among jungle animals vary widely, with many species showcasing specialized features for climbing, camouflage, hunting, and survival in the lush and often challenging terrain of the jungle.</p>
+        </div>
+      </div>
+    </a>
+
+      </div>
+      <!-- <img src="img/zooniverse.jpg" class="background"> -->
+      <!-- <section class="background"></section> -->
   </body>
 </html>

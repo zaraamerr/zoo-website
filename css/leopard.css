@@ -1,3 +1,4 @@
+/* regular css */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +10,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #f1f4fd;
+    background: white;
   }
   
   .container {
@@ -142,5 +143,7 @@
       width: 20%;
     }
   }
+
+  
 
   

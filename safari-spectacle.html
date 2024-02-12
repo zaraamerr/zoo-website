@@ -3,11 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/721b848492.js" crossorigin="anonymous"></script>
     <title>Safari Spectacle</title>
     <link rel="stylesheet" type="text/css" href="css/safari-spectacle.css">
     <script src="script.js"></script>
 </head>
 <body>
+     <!-- NAV BAR -->
+     <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">ZOO-NIVERSE</label>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="jungle-junction.html">Jungle Junction</a></li>
+          <li><a href="safari-spectacle.html">Safari Spectacle</a></li>
+        </ul>
+      </nav>
+      
     <!--  image card layout start  -->
     <div class = "container">
         <!--  image row start  -->
@@ -31,7 +46,7 @@
                  <h2><span>Elephant</span></h2>
                  <p>Did you know an elephant's truck can contain up to 8 liters of water?</p>
                  <div class = "more">
-                    <a href="#" class = "learn-more"><span>Click Here </span>to Learn More</a>
+                     <a href="#" class = "learn-more"><span>Click Here </span>to Learn More</a>
                  </div>
                 </div>
             </div>
@@ -45,7 +60,7 @@
                <img src = "img/giraffe-6378717_1280.jpg" alt = "">
                <div class = "details">
                 <h2><span>Giraffe</span></h2>
-                <p>The tallest mammal in the world.</p>
+                <p>Did you know a giraffe's legs are taller than most humans?</p>
                 <div class = "more">
                     <a href="#" class = "learn-more"><span>Click Here </span>to Learn More</a>
                 </div>
@@ -53,11 +68,11 @@
             </div>
             <!--  image card end  -->
             <!--  image card start  -->
-            <div class = "image">
+            <div class = "image" onclick="navigateToZebra()">
                 <img src = "img/zebra-2283914_1280.jpg" alt = "">
                 <div class = "details">
                  <h2><span>Zebra</span></h2>
-                 <p>No two zebras have the same stripe pattern.</p>
+                 <p>Did you know that no two zebras have the same stripe pattern?</p>
                  <div class = "more">
                     <a href="#" class = "learn-more"><span>Click Here </span>to Learn More</a>
                  </div>
