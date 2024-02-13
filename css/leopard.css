@@ -10,9 +10,10 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: white;
+    background: black;
+    padding-top: 20px;
 
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 
   }
   
@@ -88,7 +89,7 @@
   }
   
   .slider-scrollbar .scrollbar-track {
-    background: #ccc;
+    background: #000;
     width: 100%;
     height: 2px;
     display: flex;
@@ -103,7 +104,7 @@
   
   .slider-scrollbar .scrollbar-thumb {
     position: absolute;
-    background: #000;
+    background: #fff;
     top: 0;
     bottom: 0;
     width: 50%;
@@ -208,24 +209,24 @@ h1 {
   position: relative; /* Change to relative positioning */
   bottom: 0; /* Remove the bottom positioning */
   margin-bottom: 10px; /* Adjust as needed */
-  color: black;
+  color: white;
   font-size: 24px;
   text-align: center;
   font-family: "Raleway", sans-serif;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); ;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
 }
 
 p {
   position: relative; /* Change to relative positioning */
   bottom: 0; /* Remove the bottom positioning */
-  color: black;
+  color: white;
   font-size: 16px;
   text-align: center;
   font-family: "Raleway", sans-serif;
   width: 80%; /* Adjust as needed */
   margin: 0 auto; /* Center the paragraph horizontally */
   line-height: 1.6;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
 }
 
 
