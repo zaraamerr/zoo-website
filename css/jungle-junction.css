@@ -8,17 +8,9 @@
   }
   
   body{
-    /* font-family: montserrat; */
     font-family: "Raleway", sans-serif;
-    /* background-color: #D9E8DC; */
     background-color: #0d0d0d;
   }
-  
-  /* nav{
-    background: #355A3A;
-    height: 80px;
-    width: 100%;
-  } */
 
   nav {
     background: #355A3A;
@@ -27,7 +19,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000; /* Set a higher z-index value */
+    z-index: 1000;
   }
   
   
@@ -58,13 +50,7 @@
     text-transform: uppercase;
   }
   
-  /* a.active, a:hover{
-    color: #1b9bff;
-    transition: .5s;
-  } */
-  
   nav ul li a:hover {
-    /* Change background color and add box-shadow on hover */
     background-color: #2D4D32;
     box-shadow: 0 0 5px #1E3321;
   }
