@@ -205,29 +205,27 @@
 } */
 
 h1 {
-    position: relative;
-    bottom: -30px; /* Adjust as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    color: black;
-    font-size: 24px;
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  position: relative; /* Change to relative positioning */
+  bottom: 0; /* Remove the bottom positioning */
+  margin-bottom: 10px; /* Adjust as needed */
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); ;
 }
 
 p {
-    position: relative;
-    bottom: -150px; /* Adjust as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    color: black;
-    font-size: 16px;
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    width: 80%; /* Adjust as needed */
-    line-height: 1.6;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  position: relative; /* Change to relative positioning */
+  bottom: 0; /* Remove the bottom positioning */
+  color: black;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  width: 80%; /* Adjust as needed */
+  margin: 0 auto; /* Center the paragraph horizontally */
+  line-height: 1.6;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 
