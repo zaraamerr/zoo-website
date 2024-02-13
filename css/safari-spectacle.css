@@ -155,11 +155,22 @@ body{
     background-color: #0d0d0d;
   }
   
-  nav{
+  /* nav{
     background: #355A3A;
     height: 80px;
     width: 100%;
+  } */
+
+  nav {
+    background: #355A3A;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Set a higher z-index value */
   }
+  
   
   label.logo{
     color: white;
