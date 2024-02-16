@@ -7,9 +7,25 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: "Raleway", sans-serif;
   background-color: #0d0d0d;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0d0d0d;
+  background-image: url('/img/leaves.avif');
+  opacity: 0.9;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
 }
 
 nav {
