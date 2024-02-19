@@ -4,19 +4,24 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  :root {
+    --background-color: #ffffff; /* Default background color */
+    --background-image: url("../img/antelope-4121962_1280.jpg");
+  }
   
   body {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: black;
+    background-color: var(--background-color);
     padding-top: 20px;
 
     margin-bottom: 20px;
 
   }
-  
+
   .container {
     max-width: 1200px;
     width: 95%;
@@ -40,7 +45,7 @@
     display: flex;
     cursor: pointer;
     font-size: 2.2rem;
-    background: #000;
+    background: black;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
@@ -155,19 +160,20 @@ h1 {
   bottom: 0; /* Remove the bottom positioning */
   margin-bottom: 10px; /* Adjust as needed */
   color: white;
-  font-size: 24px;
+  font-size: 50px;
   text-align: center;
   font-family: "Raleway", sans-serif;
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+  text-shadow: 2px 2px 4px rgba(152, 147, 147, 0.5);
 }
 
 p {
   position: relative; /* Change to relative positioning */
   bottom: 0; /* Remove the bottom positioning */
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   font-family: "Raleway", sans-serif;
+  text-align: center;
   width: 80%; /* Adjust as needed */
   margin: 0 auto; /* Center the paragraph horizontally */
   line-height: 1.6;
