@@ -1,33 +1,20 @@
-# zoo-starter-code
+# Welcome to the Zoo-niverse!
 
-This repository is the starter code for Assignment 1 - Zoo.
+Zoo-niverse is an interactive web application that lets you explore two unique zoos: the Safari Zoo created by Zara Amer and the Jungle Zoo created by Fatima Asif. Whether you're interested in majestic savannah animals or vibrant jungle creatures, Zoo-niverse has something for everyone.
 
 ### Live Link
 [Website link](https://zaraamerr.github.io/zoo-website/)
 
 ----------
-### 1. Use the following process to ***import*** the Assignment 1 starter code repository to your GitHub account as your starter codebase
-1.	Log on to GitHub
-2.	Click on the + sign in the top right corner (next to the user icon)
-3.	In the dropdown menu, select "Import repository"
-4.	A new page will open
-5.	In "Your old repository’s clone URL" field, enter: `https://github.com/johnnylaicode/zoo-starter-code`
-6.	In "Your new repository details" field, enter your own repository name (e.g., "assignment-1")
-7.	Click on the "Begin import" button to start the process
-8.	After the process completed, your new "assignment-1" repository is created – as a completely independent codebase
-9.	From this point on, you can clone your new repository, make changes, create feature branches, and create/merge pull requests
+### Group Members:
+*	Zara Amer: Zara's love for wildlife and adventure inspired her to create the Safari Zoo, where visitors can embark on a virtual journey through the African savannah.
+*	Fatima Asif: Fatima's fascination with exotic animals led her to create the Jungle Zoo, a vibrant sanctuary filled with fascinating creatures from the heart of the jungle.
 
 ----------
-### 2. Use the information below to ***clone*** the starter codebase to your local machine
-After creating the starter codebase "assignment-1" repository on GitHub (see above), you can clone it to your local machine. The instructions on how to clone a GitHub repository are available at this [link](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+### Features
+- **Two Unique Zoos:** Explore the Safari Zoo and the Jungle Zoo, each with its own distinct atmosphere and inhabitants.
+- **Interactive Navigation:** Easily navigate between the two zoos using the homepage or the convenient navbar.
+- **Rich Content:** Dive deep into the world of animals with detailed descriptions, stunning images, and fun facts about each species.
+- **Educational Experience:** Learn about wildlife conservation, habitat preservation, and the importance of biodiversity while enjoying your virtual zoo visit.
+- **User-Friendly Interface:** The intuitive interface ensures a seamless and enjoyable browsing experience for users of all ages.
 
-----------
-### 3. Set up and deploy the application to GitHub Pages
-After your application development, you can deploy the application to GitHub Pages using the process below.
-
-#### 1. Create your GitHub Pages home website
-Before deploying a application to GitHub Pages, you need to first create your GitHub Pages home website `https://[your GitHub username].github.io`
-The instructions on how to create your GitHub Pages home website are available at this [link](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
-
-#### 2. Deploy the application to GitHub Pages
-Follow the instructions at this [link](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) to deploy your application to GitHub Pages.
