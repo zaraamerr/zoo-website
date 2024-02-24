@@ -7,8 +7,8 @@ Zoo-niverse is an interactive web application that lets you explore two unique z
 
 ----------
 ### Group Members:
-*	Zara Amer: Zara's love for wildlife and adventure inspired her to create the Safari Zoo, where visitors can embark on a virtual journey through the African savannah.
-*	Fatima Asif: Fatima's fascination with exotic animals led her to create the Jungle Zoo, a vibrant sanctuary filled with fascinating creatures from the heart of the jungle.
+*	Zara Amer: Zara's love for wildlife and adventure inspired her to create the Safari Zoo, where visitors can embark on a virtual journey through the African savannah. Github username: zaraamerr
+*	Fatima Asif: Fatima's fascination with exotic animals led her to create the Jungle Zoo, a vibrant sanctuary filled with fascinating creatures from the heart of the jungle. Github username: fatimasif
 
 ----------
 ### Features
